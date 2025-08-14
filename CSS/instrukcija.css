@@ -1,0 +1,53 @@
+
+body {
+    background-color: grey;
+    margin: 50px 50px 50px 50px;
+}
+
+p {
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Izveidot vienādas kolonnas viena otrai blakus*/
+  .kolonna {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+  }
+  
+  .rinda:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .atgriezties {
+    margin-top: 100px;
+    float: right;
+  }
+
+a.poga {
+  float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  font-size: 17px;
+  background-color: white;
+}
+
+a.poga:hover {
+color: white;
+background-color:black;
+}
+

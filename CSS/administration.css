@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+.izvelneQ {
+  overflow: hidden;
+background-color: #060352;
+top: 0;
+width: 100%;
+z-index: 9999;
+}
+
+.izvelneQ a {
+float: left;
+display: block;
+color: whitesmoke;
+text-align: center;
+padding: 15px 7px;
+text-decoration: none;
+font-weight: bold;
+font-size: 15px;
+}
+
+.izvelneQ a:hover {
+background: black;
+color:white;
+}
+
+a.iziet {
+  background-color:rgb(240, 238, 238);
+  color: #C41B1B;
+}
+h5 {
+  color:red;
+  margin-left: 500px;
+  margin-top: 50px;     
+}
+
+
+div.main {
+  text-align: center;
+}
+
+.rinda:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.kolonna {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spied {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+div.mainDelete {
+  margin: 5%;
+}
+
+button[type=submit] {
+  background-color:  #22AE8B;
+
+}
+
+button[type=submit]:hover {
+  background-color: #65CD97;
+}
+
+
+
+button[type=submit] {
+  margin: 15px;
+  padding: 6px 8px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#DeletePhotos {
+  border: 1px solid  #f72b07;
+  background-color:#ee8a07;
+}
+
+#DeletePhotos:hover {
+  background-color:red;
+  color:white;
+}
+
+#izdzestFoto {
+  border: 1px solid  #506fee;
+  background-color:#ccf3f4;
+}
+
+#izdzestFoto:hover {
+  background-color:rgb(25, 179, 226);
+  color:white;
+}
+
+#text {
+  border: 1px solid green;
+  background-color: palegoldenrod;
+}
+
+#text:hover {
+  background-color: green;
+  color: white;
+}
+    
+.admin {
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+h4 {
+  font-size: 17px;
+}
+
+.bodypar {
+  margin-top: 50px;
+  margin-left: 400px;
+} 
+
+body {
+
+  color: black;
+  background-color: grey;
+}
+
+textarea {
+  border-color: black;
+  color: black;
+}
+
+h2 {
+  font-size: 14px;
+  color: black;
+}
+
+.instrukcija {
+  color: #C41B1B;
+}
+footer {
+  margin-left: 50px;
+}
+
+input#izmeri {
+  width: 25%;
+  padding: 12px 18px;
+  border: none;
+  border-bottom: 2px solid #22AE8B;
+  background-color: grey;
+}
+
+input#izmeri::placeholder {
+  color: black;
+}
+
+input#izmeri:hover {
+  background-color:#22AE8B;
+}
+
+input#izmeri:focus {
+  background-color:green;
+}
+
+textarea {
+  box-sizing: border-box;
+  background-color: #DFFFEE;
+  height: 80px;
+  max-width: 400px;
+  max-height: 300px;
+  width: 200px;
+}
+
+textarea::placeholder {
+  color: black;
+}
+
+textarea#izmeri {
+  box-sizing: border-box;
+  background-color: #DFFFEE;
+  height: 80px;
+  max-width: 400px;
+  max-height: 300px;
+  width: 200px;
+}
+
+textarea#izmeri::placeholder {
+  color: black;
+}
+
+h1 {
+  color: #0027c2;
+  font-size: medium;
+}
+
+button[type=submit]#delete {
+  background-color:  orange;
+  color: red;
+
+}
+
+button[type=submit]#delete:hover {
+  background-color: red;
+  color: orange;
+}
+
+
+
+button#delete[type=submit] {
+  margin: 15px;
+  padding: 6px 8px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.mainopt {
+  text-align: center;
+  margin-top: 100px;
+}
